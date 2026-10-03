@@ -47,15 +47,12 @@ Las aplicaciones que he analizado son las siguientes:
 | **Shein** | Recomendaciones personalizadas y tiene reseñas de otros compradores que facilita para decidir la talla. | Interfaz muy saturada de productos, sin que se vea limpia y puede llevar a confundir al usuario. | Evitar el exceso de animaciones y productos, y priorizar una interfaz más limpia para un uso más fácil. |
 ### 2.4 Insights y hallazgos clave
 1. **Insight:** Los usuarios dudan con las tallas porque cada marca usa unas medidas distintas.
-   
    **Decisión:** Poner en cada producto un selector de talla, con un botón de guía de tallas que abre un bottom sheet con las medidas.
 
 2. **Insight:** Los usuarios compran con una mano y con poco tiempo.
-   
    **Decisión:** Los botones principales como los de comprar o añadir al carrito, ponerlos más grandes con área táctil de 48x48 dp y implementar una navegación con navigation bar para que se muevan más rápido por la aplicación.
 
 3. **Insight:** Una interfaz saturada de productos hace que el usuario se confunda.
-   
    **Decisión:** Implementar una interfaz con las categorías claras con filter chips y con pantallas más limpias.
 
 4. **Insight:** Un checkout largo hace que los usuarios abandonen la compra.
