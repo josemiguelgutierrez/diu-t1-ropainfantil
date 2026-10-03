@@ -59,7 +59,6 @@ Las aplicaciones que he analizado son las siguientes:
    **Decisión:** Implementar una interfaz con las categorías claras con filter chips y con pantallas más limpias.
 
 4. **Insight:** Un checkout largo hace que los usuarios abandonen la compra.
-   
    **Decisión:** Implementar un checkout corto, con pocos campos y mensajes de ayuda claros si hay un error.
 
 ## 3. Diseño de la interfaz
