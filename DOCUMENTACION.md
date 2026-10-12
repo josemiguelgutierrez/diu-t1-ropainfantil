@@ -109,7 +109,23 @@ Los wireframes son bocetos de baja fidelidad en escala de grises, en frames Andr
 
 ![Wireframe de Favoritos](capturas/wireframes/07-Perfil.png)
 ### 3.3 Guía de estilo Material Design 3
+
+**Color semilla:** `#4A90D9` (azul). He elegido este azul, porque es alegre y para las madres, padres y abuelos se ve claro y les puede resultar bonito. Los esquemas claro y oscuro se han generado con Material Theme Builder y están en `diseño/estilos.json`.
+
+**Contraste (WCAG AA, mínimo 4,5:1)**
+
+| Pareja | Claro | Oscuro |
+|---|---|---|
+| primary / onPrimary | 6,44:1 | 7,68:1 |
+| primaryContainer / onPrimaryContainer | 7,22:1 | 7,22:1 |
+| secondary / onSecondary | 6,48:1 | 7,72:1 |
+| tertiary / onTertiary | 6,44:1 | 7,76:1 |
+| surface / onSurface | 16,27:1 | 14,29:1 |
+| error / onError | 6,46:1 | 7,72:1 |
+
+Todas las parejas superan el mínimo de 4,5:1.
 ### 3.4 Prototipo de alta fidelidad
+
 
 ## 4. Validación y pruebas
 ### 4.1 Metodología (mín. 3 tareas y métricas)
