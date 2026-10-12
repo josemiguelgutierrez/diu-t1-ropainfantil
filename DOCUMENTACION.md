@@ -66,6 +66,9 @@ flowchart TD
     A[Inicio] <--> B[Catálogo]
     B <--> H[Favoritos / Perfil]
     A <--> H
+    A -->|Icono carrito| D
+    B -->|Icono carrito| D
+    H -->|Icono carrito| D
     A <--> C
     B <--> C[Detalles de producto]
     C -->|Guía de tallas| G[Bottom sheet: Guía de tallas]
@@ -134,6 +137,7 @@ Todas las parejas superan el mínimo de 4,5:1.
 
 ## 5. Entrega y documentación final
 ### 5.1 Justificación del diseño propuesto
+
 ### 5.2 Recomendaciones y pasos a seguir
 
 ## 6. Referencias bibliográficas (mín. 4, APA 7, exportadas desde Zotero)
