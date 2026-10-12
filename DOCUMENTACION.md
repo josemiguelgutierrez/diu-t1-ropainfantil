@@ -59,8 +59,55 @@ Las aplicaciones que he analizado son las siguientes:
    **Decisión:** Implementar un checkout corto, con pocos campos y mensajes de ayuda claros si hay un error.
 
 ## 3. Diseño de la interfaz
-### 3.1 Mapa de navegación (bloque ```mermaid```)
+### 3.1 Mapa de navegación
+
+```mermaid
+flowchart TD
+    A[Inicio] <--> B[Catálogo]
+    B <--> H[Favoritos / Perfil]
+    A <--> H
+    A <--> C
+    B <--> C[Detalles de producto]
+    C -->|Guía de tallas| G[Bottom sheet: Guía de tallas]
+    G --> C
+    C -->|Añadir al carrito| D[Carrito]
+    D -->|Seguir comprando| B
+    D <--> E[Checkout]
+    E --> F[Confirmación]
+    F -->|Volver al inicio| A
+```
+
 ### 3.2 Wireframes
+
+Los wireframes son bocetos de baja fidelidad en escala de grises, en frames Android de 360×800, que definen la estructura de cada pantalla antes de aplicar color y estilo.
+
+**Inicio:** buscador, categorías por edad y novedades.
+
+![Wireframe de Inicio](capturas/wireframes/01-inicio.png)
+
+**Catálogo:** filter chips, ordenación y productos.
+
+![Wireframe de Catálogo](capturas/wireframes/02-catálogo.png)
+
+**Detalle de producto:** carrusel de fotos, selector de talla y botón de guía de tallas.
+
+![Wireframe de Detalle de producto](capturas/wireframes/03-detalles-del-producto.png)
+
+**Carrito:** cantidad, eliminar y resumen del importe.
+
+![Wireframe de Carrito](capturas/wireframes/04-carrito.png)
+
+**Checkout:** formulario con un campo en error y método de pago.
+
+![Wireframe de Checkout](capturas/wireframes/05-checkout.png)
+
+**Confirmación:** pedido realizado y vuelta al inicio.
+
+![Wireframe de Confirmación](capturas/wireframes/06-confirmación.png)
+
+**Favoritos / Perfil:** productos guardados.
+
+![Wireframe de Favoritos](capturas/wireframes/07-perfil.png)
 ### 3.3 Guía de estilo Material Design 3
 ### 3.4 Prototipo de alta fidelidad
 
