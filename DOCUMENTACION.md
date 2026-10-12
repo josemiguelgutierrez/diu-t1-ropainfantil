@@ -83,31 +83,31 @@ Los wireframes son bocetos de baja fidelidad en escala de grises, en frames Andr
 
 **Inicio:** buscador, categorías por edad y novedades.
 
-![Wireframe de Inicio](capturas/wireframes/01-inicio.png)
+![Wireframe de Inicio](capturas/wireframes/01-Inicio.png)
 
 **Catálogo:** filter chips, ordenación y productos.
 
-![Wireframe de Catálogo](capturas/wireframes/02-catálogo.png)
+![Wireframe de Catálogo](capturas/wireframes/02-Catálogo.png)
 
 **Detalle de producto:** carrusel de fotos, selector de talla y botón de guía de tallas.
 
-![Wireframe de Detalle de producto](capturas/wireframes/03-detalles-del-producto.png)
+![Wireframe de Detalle de producto](capturas/wireframes/03-Detalles-del-producto.png)
 
 **Carrito:** cantidad, eliminar y resumen del importe.
 
-![Wireframe de Carrito](capturas/wireframes/04-carrito.png)
+![Wireframe de Carrito](capturas/wireframes/04-Carrito.png)
 
 **Checkout:** formulario con un campo en error y método de pago.
 
-![Wireframe de Checkout](capturas/wireframes/05-checkout.png)
+![Wireframe de Checkout](capturas/wireframes/05-Checkout.png)
 
 **Confirmación:** pedido realizado y vuelta al inicio.
 
-![Wireframe de Confirmación](capturas/wireframes/06-confirmación.png)
+![Wireframe de Confirmación](capturas/wireframes/06-Confirmación.png)
 
 **Favoritos / Perfil:** productos guardados.
 
-![Wireframe de Favoritos](capturas/wireframes/07-perfil.png)
+![Wireframe de Favoritos](capturas/wireframes/07-Perfil.png)
 ### 3.3 Guía de estilo Material Design 3
 ### 3.4 Prototipo de alta fidelidad
 
